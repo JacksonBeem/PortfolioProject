@@ -16,23 +16,47 @@ body{
     list-style-type: none;
     display:flex;
     border-style: solid  ;
-    gap: 15px;
+    gap: 10px;
+    justify-content: space-around;
     
 }
 .navigation li{
-padding: 10px;
+align-items: center;
+padding: 0 10px;
+padding-top: 10px;
 }
 
 .navigation a{
     text-decoration: none;
+    
 }
 .navigation a:hover{
     color:rgb(0, 123, 255)
 }
-.calltoaction{
+.navigation .calltoaction{
     margin-left:auto;
     border-radius: 3px;
+    
+    
 }
+.navigation .calltoaction button{
+    width: 100px;
+    height: 30px;
+    transition: background 0.3s ease;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+.navigation .calltoaction button:hover{
+    background: rgb(160, 236, 236);
+    color: black;
+}
+
+.navigation .logo img {
+width: 40px;
+height: 40px;
+padding-bottom: 5px;
+}
+
 
 /*paragraph styling*/
 .paragraph-content{
@@ -127,3 +151,16 @@ padding: 10px;
     text-decoration:none;
     
 }
+#objective{
+    text-align: left;
+}
+
+#intrest-heading{
+    padding: 20px;
+}
+#objective-contact{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
